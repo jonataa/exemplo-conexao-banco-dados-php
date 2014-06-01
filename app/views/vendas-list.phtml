@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Nossa Loja Foo Bar</title>
+</head>
+<body>
+	<ul>			
+	<?php foreach ($data['vendas'] as $venda): ?>
+		<li><?= $venda['descricao']; ?></li>
+	<?php endforeach; ?>
+	</ul>	
+</body>
+</html>
