@@ -17,8 +17,8 @@ php -S localhost:8000 -t web/
 
 Rotas Disponíveis
 -----------------
-> http://localhost:8000/produtos/listar
-> http://localhost:8000/vendas/listar
+* http://localhost:8000/produtos/listar
+* http://localhost:8000/vendas/listar
 
 Conexão com Banco de Dados
 --------------------------
