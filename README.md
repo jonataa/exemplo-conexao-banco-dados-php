@@ -22,8 +22,8 @@ Conexão com Banco de Dados
 
 $db = new \PDO('sqlite:pasta/do/banco/projeto.db');
 $stmt = $db->prepare('INSERT INTO produtos(descricao, preco) VALUES(:descricao, :preco);');
-$stmt->bindParam(':descricao', $produto['descricao']);
-$stmt->bindParam(':preco', $produto['preco']);
+$stmt->bindParam(':descricao', 'XBOX 360');
+$stmt->bindParam(':preco', '3999.00');
 $stmt->execute();
 
 ?>
